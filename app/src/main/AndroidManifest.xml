@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rapha.kita_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityOne"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Home"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Ausstattung"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AusstattungExt"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Veranstaltungen_Choice"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Veranst_Erst"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Veranst_Erst_Ext"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Veranst_Rueckmeld_Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Veranst_Rueckmeld_Smr"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Eltern_Choice"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elternabend_Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elternabend_Ext"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elterngespraech_Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elterngespraech_Ext"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elt_Rueckmeld_Select"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elt_Rueckmeld_EA"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elt_Rueckmeld_EG"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

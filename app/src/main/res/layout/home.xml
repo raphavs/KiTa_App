@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.rapha.kita_app.Home">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="409dp"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="@string/home"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="39sp"
+        android:background="@drawable/my_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="218dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="Fehler"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.004" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="213dp"
+        android:layout_height="54dp"
+        android:text="@string/ausstattung"
+        android:textSize="19dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="213dp"
+        android:layout_height="54dp"
+        android:text="@string/veranstaltungen"
+        android:textSize="19dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="213dp"
+        android:layout_height="54dp"
+        android:text="@string/eltern"
+        android:textSize="19dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="113dp"
+        android:layout_height="37dp"
+        android:text="Ausloggen"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.865" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="156dp"
+        android:gravity="center"
+        android:text="Hier könnte Ihr Logo stehen!"
+        android:textColor="@color/colorBlack"
+        android:textSize="21sp"
+        android:background="@drawable/border_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        app:layout_constraintHorizontal_bias="0.496" />
+
+</android.support.constraint.ConstraintLayout>
